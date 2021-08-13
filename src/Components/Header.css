@@ -1,0 +1,25 @@
+@keyframes rotate{
+    100%{
+      transform:rotate(360deg);
+    }
+  }
+.logo {
+    animation-name:rotate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.Header{
+    width: 100%;
+    background-color: #222;
+    padding: 2px;
+}
+.Header > img{
+    width: 100px;
+    height: 100px;
+}
+.Header > h2{
+    color: white;
+    font-weight: 500;
+}
